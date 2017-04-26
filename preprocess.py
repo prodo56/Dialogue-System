@@ -7,7 +7,7 @@ import dialogueSystem
 tokenizer = TreebankWordTokenizer()
 
 
-with codecs.open("lincoln.txt",encoding="utf-8") as f:
+with codecs.open("taylor.txt",encoding="utf-8") as f:
     taylor_data = f.readlines()
 
 #print taylor_data
